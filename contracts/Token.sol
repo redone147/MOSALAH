@@ -381,9 +381,9 @@ contract Zoro is Context, iBEP20, Ownable {
     string public _name;
 
     constructor() public {
-        _name = "JA SEG";
-        _symbol = "J&A";
-        _decimals = 8;
+        _name = "ZORO TOKEN";
+        _symbol = "ZRT";
+        _decimals = 18;
         _totalSupply = 1 * 10**8 * 10**18; //100m
         _balances[msg.sender] = _totalSupply;
 
