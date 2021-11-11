@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity 0.6.8;
 
 interface iBEP20 {
@@ -368,7 +368,7 @@ contract Ownable is Context {
     }
 }
 
-contract Token is Context, iBEP20, Ownable {
+contract Zoro is Context, iBEP20, Ownable {
     using SafeMath for uint256;
 
     mapping(address => uint256) private _balances;
